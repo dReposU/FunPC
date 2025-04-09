@@ -17,7 +17,13 @@ void print(int* A, int N) {
 
 int main() 
 {
+  //int a[1]; // Added by user
+  //cin>>a[1]; // Added by user
+  //cout<<a[1]<<endl; // Added by user
+  //cout<< "Inserta los datos relevantes del problema"<< endl; // Added by user
+
   int T, N;
+
   int A[100];
   cin >> T;
   for(int k = 0; k < T; ++k) {
