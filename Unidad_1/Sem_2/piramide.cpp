@@ -1,13 +1,18 @@
 #include <iostream>
 using namespace std;
 
+void sumR(int n){
+    if (n > 1){
+        sumR(n-1);
+    }
+    cout<<n;
+}
+
 void foo(int n) {
     if (n > 1){
         foo(n - 1);
     }
-    for (int i = 1; i <= n; i++){
-        cout << i;
-    }
+    sumR(n);
     cout<<endl;
 }
 
