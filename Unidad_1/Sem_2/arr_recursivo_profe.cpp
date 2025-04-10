@@ -18,8 +18,8 @@ void print(int* A, int N) {
 int main() 
 {
   //int a[1]; // Added by user
-  //cin>>a[1]; // Added by user
-  //cout<<a[1]<<endl; // Added by user
+  //cin>>a[0]; // Added by user
+  //cout<<a[0]<<endl; // Added by user
   //cout<< "Inserta los datos relevantes del problema"<< endl; // Added by user
 
   int T, N;
